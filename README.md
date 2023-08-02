@@ -1,4 +1,2 @@
 # CW1-JavaScript-Anhanguera
- No primeiro exercíco, na ultima parte do código, linha 20, havia um erro no qual estava o operador OR (||) invés do operador AND (&&). Este erro causava que das duas exigências a serem compridas, apenas uma fosse levada em conta, assim retornando o true mesmo quando apenas uma das exigências foi comprimada.
- Trocando o operador OR (||) por AND (&&) o código é corrigido.
- Na Linha 18, o operador > deve ser trocado para >=.
+No segundo exercício é apresentado uma nova condição a ser comprida, a qual caso o aluno tenha sido aprovado na prova mas não possui a quantidade minima de semestres, o código retorna "Você foi incluído no banco de dados.". Utilizando do else if nós conseguimos atender essa condição, adicionando o parametro na linha 25 else if((nota >= nota_minima_aprovacao){...}.
