@@ -15,7 +15,7 @@ const minimo_semestres = 3
 let nota = acertos_na_prova / total_de_questoes
 
 // calcula se vai ser aprovado ou não
-if((nota > nota_minima_aprovacao) && 
+if((nota >= nota_minima_aprovacao) && 
 (semestres_cursados >= minimo_semestres)){
 return "Aprovado";
 }
