@@ -19,10 +19,10 @@ if((nota >= nota_minima_aprovacao) &&
 (semestres_cursados >= minimo_semestres)){
 return "Aprovado";
 }
-else if ((nota >= nota_minima_aprovacao)){
-return "Você foi incluído no banco de dados";
+else if ((nota >= notaminima_aprovação)){
+return "Você foi incluido no banco de dados.";
 } else {
-return "Reprovado."
+    return "Reprovado"
 }
 }
 alert(primeiraEtapa(10,4));
