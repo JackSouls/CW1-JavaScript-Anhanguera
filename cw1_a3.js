@@ -1,7 +1,10 @@
+let candidatos = ["José da Silva","Antônio de Sá","Felipe Augusto","Carla Moreira","Pedro Malta","Maria Sousa","Marta da Silva","Fausto Augusto","Silvio Sávio","Maísa Silva","Lucas Lopes","Zenildo Santos","Bruno Lucas","Luana Melo","Felipe Santos","Flávio Miguel","Lauro Maria","Juca dos Santos","Luciana Carla","Felipe Silva","André Manuel","Pedro Parker","Ana Maria","Thiago Melo"];
+candidatos.sort()
 var temp_abriu = 9
 const temp_fechou = 17
 const minutos = 15;
 var total_entrevista = 0;
+
 for (i = temp_abriu; i < temp_fechou; i=i+1){
     if((i == 12) || (i == 13)){
         continue;
@@ -9,10 +12,10 @@ for (i = temp_abriu; i < temp_fechou; i=i+1){
   for(j = 0; j < 60; j = j+minutos){
     total_entrevista++;
     if(j==0){
-        console.log("Entrevista #"+total_entrevista+"=>"+i+":"+j+"0")
+        console.log("Entrevista #"+total_entrevista+"=>"+i+":"+j+"0 "+candidatos[total_entrevista - 1])
     } else {
-    console.log("Entrevista #"+total_entrevista+"=>"+ i + ":" + j)
+    console.log("Entrevista #"+total_entrevista+"=>"+ i + ":" + j+" "+candidatos[total_entrevista - 1])
     }
+    
   }
 }
-
