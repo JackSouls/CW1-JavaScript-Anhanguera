@@ -1,2 +1,2 @@
 # CW1-JavaScript-Anhanguera
-No segundo exercício é apresentado uma nova condição a ser comprida, a qual caso o aluno tenha sido aprovado na prova mas não possui a quantidade minima de semestres, o código retorna "Você foi incluído no banco de dados.". Utilizando do else if nós conseguimos atender essa condição, adicionando o parametro na linha 25 else if((nota >= nota_minima_aprovacao){...}.
+Para atender as demandas do caso da aula 4, basta adicionarmos um array contendo os nomes dos selecionados, separa-los com "sort" em orda alfabetica, e iterar o array utilizando o total de entrevista -1 para se encaixar as localizações de cada variavel do array.
